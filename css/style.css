@@ -1,0 +1,49 @@
+.text{
+    font-family: serif;
+}
+
+/* .form-control{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+} */
+
+.form-control:focus{
+    border: 0px;
+}
+
+/* .accordion {
+	--bs-accordion-btn-color: ghostwhite;
+	--bs-accordion-btn-bg: pink;
+	--bs-accordion-active-color: maroon;
+	--bs-accordion-active-bg: lightpink;
+} */
+.accordion-button{
+    color: white;
+    background-color: green;
+}
+.accordion-button:not(.collapsed){
+    background-color: aqua;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url('/plus-svgrepo-com.svg');
+}
+.accordion-button::after {
+    background-image: url('/plus-svgrepo-com.svg');
+    transform: rotateX(45);
+}
+
+.card{
+    transition: box-shadow .4s;
+}
+.card:hover{
+    box-shadow: -2px 2px 20px gray;
+}
+.dropdown{
+    background-image: transparent;
+}
+
+.bg-custom{
+    background-color: darkcyan;
+}
